@@ -73,4 +73,5 @@ Como parte da minha jornada para **IA Engineer**, esta arquitetura foi pensada p
  * **Análise de Sentimento:** Integração futura com *Azure AI Services* dentro da Function.
  * **Automação Inteligente:** Uso de agentes Python para tomada de decisão baseada nos dados da fila.
 
-**Desenvolvido por Maike Simoncini da Silva** *ADS Technologist | Foco em Cloud, Automação e IA*
+**Desenvolvido por Maike Simoncini da Silva** *ADS Technologist | Foco em Cloud, Automação e IA* 
+[LinkedIn](https://www.linkedin.com/in/maike-simoncini-da-silva-9769b2287)

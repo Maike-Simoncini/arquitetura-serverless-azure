@@ -1,0 +1,12 @@
+# Bibliotecas principais do Azure Functions
+azure-functions
+
+# Necessário para operações que envolvem o Service Bus dentro da Function
+# (Geralmente o azure-functions já cobre o trigger, mas é boa prática ter as extensões)
+azure-servicebus
+
+# Utilitário para lidar com variáveis de ambiente de forma segura
+python-dotenv
+
+# Recomendado para processamento de dados e requisições extras
+requests

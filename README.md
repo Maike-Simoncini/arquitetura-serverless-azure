@@ -36,14 +36,16 @@ graph TD
  * **Application Insights:** Monitoramento em tempo real para identificação de gargalos e rastreamento de erros (Observabilidade).
 ## 📂 Estrutura do Repositório
 ```text
-arquitetura-serverless-azure
+arquitetura-serverless-azure/
 ├── src/
-│   ├── functions/            # Código-fonte Python das Azure Functions
-│   │   ├── function_app.py   # Script principal com os Triggers
-│   │   └── requirements.txt. # Dependências do projeto
-│   └── logic-apps/           # Definições JSON do workflow de integração
-├── .gitignore                # Proteção de arquivos locais (venv, settings)
-└── README.md                 # Documentação principal
+│   ├── functions/            # Camada de Processamento (Backend)
+│   │   ├── function_app.py   # Gatilhos e lógica de negócio em Python
+│   │   └── requirements.txt  # Bibliotecas e dependências do projeto
+│   └── logic-apps/           # Camada de Integração (Workflow)
+│       └── workflow.json     # Definição do fluxo exportada da Azure
+├── .gitignore                # Proteção de arquivos locais e sensíveis
+├── host.json                 # Configurações globais do runtime Azure
+└── README.md                 # Documentação principal e diagrama
 
 ```
 ## 🚀 Como Replicar

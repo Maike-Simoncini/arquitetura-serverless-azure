@@ -55,7 +55,7 @@ arquitetura-serverless-azure/
    * Python 3.9 ou superior.
  2. **Configuração Local:**
    ```bash
-   git clone [https://github.com/MAIKE-SIMONCINI/arquitetura-serverless-azure.git](https://github.com/MAIKE-SIMONCINI/arquitetura-serverless-azure.git)
+   git clone [https://github.com/Maike-Simoncini/arquitetura-serverless-azure.git](https://github.com/Maike-Simoncini/arquitetura-serverless-azure.git)
    cd src/functions
    python -m venv .venv
    source .venv/bin/activate  # No Windows: .venv\Scripts\activate
